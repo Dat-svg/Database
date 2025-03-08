@@ -1,0 +1,45 @@
+[KhachHang]
+(MaKhachHang)
+TenKhachHang
+TheDinhDanh
+
+[PhieuDatPhong]
+(MaDatPhong)
+MaKhachHang
+MaPhong
+NgayCheckIn
+SoNgayO
+
+[Phong]
+(MaPhong)
+MaDichVu
+TienIchPhong
+SoLuongGiuong
+
+[DichVu]
+(MaDichVu)
+TenDichVu
+GiaDichVu
+
+[PhongTieuChuan]
+(MaPhong)
+GiaTienPhong
+
+[PhongVIP]
+(MaPhong)
+GiaTienPhong
+UuDaiDacQuyenPhongVIP
+
+[HoaDon]
+(MaHoaDon)
+NgayThanhToan
+TongSoTien
+MaDatPhong
+
+[LoaiHoaDon]
+(MaHoaDon)
+
+MaKhachHang -> MaDatPhong
+MaDatPhong -> MaPhong
+MaPhong -> MaPhong
+MaPhong -> MaDichVu
